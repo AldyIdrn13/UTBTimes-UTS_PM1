@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brokenWhite">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="44dp"
+        android:paddingHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:src="@drawable/typefacelogo"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Logo"/>
+
+        <TextView
+            android:text="Create an Account"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfairdisplay_bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:text="Name"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/formName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/border_radius"
+            android:drawablePadding="12dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:text="Email"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/formEmail"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/border_radius"
+            android:drawablePadding="12dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:text="Password"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/formPassword"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/border_radius"
+            android:drawablePadding="12dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Sign Up"
+            android:textSize="16dp"
+            android:fontFamily="@font/playfairdisplay_medium"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_radius"
+            android:textColor="@color/brokenWhite"
+            android:backgroundTint="@color/black" />
+
+
+    </LinearLayout>
+</ScrollView>
